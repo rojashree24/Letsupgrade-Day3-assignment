@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment day3</title>
+</head>
+<body>
+    
+    <script>
+        //to print a table of 5
+     var num=5;
+     for(var i=1;i<=10;i++){
+         var sum=0;
+         sum=i*num;
+         console.log(`${i}*${num}=${sum}`);
+     }
+
+
+     //5 variables holding marks of 5 subjects and calculate percentage
+        var english=89, maths=90, cs=94, physics=90, biology=80;
+        var per=(english+maths+cs+physics+biology)/500*100;
+        if(per>=90&&per<=100){
+            console.log("O grade");
+        }
+        else if(per>=80&&per<=90){
+            console.log("A grade");
+        }
+        else if(per>=50&&per<=80){
+            console.log("B grade");
+        }
+        else{
+            console.log("C grade");
+        }
+
+    </script>
+</body>
+</html>
